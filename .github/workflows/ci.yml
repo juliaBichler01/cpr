@@ -31,7 +31,7 @@ jobs:
         ctest-options: -V
         configure-options: -DBUILD_SHARED_LIBS=ON
   
-  clang-tidy:
+  cpp-check:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
